@@ -16,3 +16,7 @@ h1 {
 li {
   margin-block-end: 1rem;
 }
+
+.boldFont {
+  font-weight: 700;
+}
