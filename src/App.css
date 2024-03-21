@@ -5,18 +5,44 @@ html {
 body {
   font-size: 1.6rem;
   margin: 2rem;
+  font-family: "Gotham Light";
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+header {
+  border-radius: 0.5rem 0.5rem 0 0;
+  background-color: rgba(105, 1, 59, 1);
+  padding: 2rem;
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-family: "Morion Beta Regular";
+  color: rgba(252, 224, 209, 1);
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+main {
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  padding-block-end: 2rem;
+  border: 1px solid lightgray;
+}
+
+h2 {
+  font-size: 2.2rem;
   font-weight: bold;
-  margin-block-end: 2rem;
+  margin-block-end: 1.5rem;
+  margin-block-start: 2rem;
+  font-family: "Gotham Medium";
 }
 
 li {
-  margin-block-end: 1rem;
+  margin-inline-start: 2rem;
+  margin-block-end: 1.5rem;
+  list-style: circle;
 }
 
 .boldFont {
-  font-weight: 700;
+  font-family: "Gotham Medium";
 }
